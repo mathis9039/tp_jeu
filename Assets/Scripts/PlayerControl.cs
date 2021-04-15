@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static int speed = 5;
+
+    public void Start()
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        
+        transform.position += Vector3.forward * Time.deltaTime * speed;
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            transform.position = new Vector3(transform.position.x - 5f, transform.position.y, transform.position.z);
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            transform.position = new Vector3(transform.position.x + 5f, transform.position.y, transform.position.z);
+        }
     }
 }
