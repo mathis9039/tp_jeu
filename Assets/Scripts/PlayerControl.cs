@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    public static int speed = 5;
+    public static int speed = 15;
 
     public void Start()
     {
