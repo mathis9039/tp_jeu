@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3336518}
   - component: {fileID: 2375328}
   - component: {fileID: -3677097360466794871}
+  - component: {fileID: -1054045356698934435}
   m_Layer: 0
   m_Name: Car_3_Green
   m_TagString: Untagged
@@ -98,6 +99,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff55d08e115ccc649b959acf03bd4dcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-1054045356698934435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.045498963, y: 0.01358262, z: 0.021373877}
+  m_Center: {x: -0.000103079736, y: 0.0009655473, z: 4.656614e-10}
 --- !u!1 &145462
 GameObject:
   m_ObjectHideFlags: 0

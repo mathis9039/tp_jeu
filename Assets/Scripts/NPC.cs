@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,5 +15,14 @@ public class NPC : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        print("Collision");
+        if (other.gameObject.CompareTag("Player"))
+        {
+            print("Collision");
+        }
     }
 }
