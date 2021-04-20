@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NPC : MonoBehaviour
 {
@@ -17,8 +18,14 @@ public class NPC : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider col)
     {
         Debug.Log("collision");
+        print(col.gameObject);
+        if (col.gameObject)
+        {
+            
+        }
+        SceneManager.LoadScene("Scenes/SampleScene");
     }
 }
