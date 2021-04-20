@@ -5,9 +5,15 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour
 {
     public static int speed = 10;
+    private float initialX;
+    private float initialY;
+    private float initialZ;
 
     public void Start()
     {
+        initialX = transform.position.x;
+        initialY = transform.position.y;
+        initialZ = transform.position.z;
     }
 
     public void Update()
@@ -30,7 +36,7 @@ public class PlayerControl : MonoBehaviour
         if (other.gameObject.CompareTag("NPC"))
         {
             Debug.Log("collision");
-            transform.position = new Vector3(-15, 1.1f, -72f);
+            transform.position = new Vector3(initialX, initialY, initialZ);
         }
     }
 }
