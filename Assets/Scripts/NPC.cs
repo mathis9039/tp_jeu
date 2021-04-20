@@ -19,10 +19,6 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        print("Collision");
-        if (other.gameObject.CompareTag("Player"))
-        {
-            print("Collision");
-        }
+        Debug.Log("collision");
     }
 }

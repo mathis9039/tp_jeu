@@ -23,4 +23,8 @@ public class PlayerControl : MonoBehaviour
             transform.position = new Vector3(transform.position.x + 5f, transform.position.y, transform.position.z);
         }
     }
+    void OnTreggerEnter(Collider col)
+    {
+        
+    }
 }
