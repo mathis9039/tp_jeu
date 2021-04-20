@@ -23,4 +23,14 @@ public class PlayerControl : MonoBehaviour
             transform.position = new Vector3(transform.position.x + 5f, transform.position.y, transform.position.z);
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // print(other.gameObject);
+        if (other.gameObject.CompareTag("NPC"))
+        {
+            Debug.Log("collision");
+            transform.position = new Vector3(-15, 1.1f, -12.4f);
+        }
+    }
 }

@@ -582,7 +582,7 @@ GameObject:
   - component: {fileID: 6561691546460365449}
   m_Layer: 0
   m_Name: Truck_1_Green
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
