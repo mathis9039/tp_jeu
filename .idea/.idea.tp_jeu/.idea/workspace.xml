@@ -2,72 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb4263f-cd47-47bb-96d7-a1ddaf738198" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.tp_jeu/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tp_jeu/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.tp_jeu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tp_jeu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Blue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Purple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Purple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Red.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Silver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Silver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Yellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Bus_Yellow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Blue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Purple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Purple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Red.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Silver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Silver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Yellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Yellow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Blue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Purple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Purple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Red.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Silver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Silver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Yellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Yellow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Blue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Purple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Purple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Red.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Silver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Silver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Yellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_3_Yellow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Blue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Purple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Purple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Red.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Silver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Silver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Yellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Yellow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Blue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Purple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Purple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Red.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Silver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Silver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Yellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Yellow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Blue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Purple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Purple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Red.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Silver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Silver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Yellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Yellow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Blue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Purple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Purple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Red.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Silver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Silver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Yellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_1_Yellow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Blue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Purple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Purple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Red.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Silver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Silver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Yellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyCarPack/Prefabs/Truck_2_Yellow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v3/Police Car v3 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v3/Police Car v3 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/SWAT Cars/Swat Car 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/SWAT Cars/Swat Car 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/SWAT Cars/Swat Car 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/SWAT Cars/Swat Car 3.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +66,7 @@
       <workItem from="1618920612038" duration="613000" />
       <workItem from="1618922264489" duration="1619000" />
       <workItem from="1618924785604" duration="863000" />
+      <workItem from="1618927386542" duration="145000" />
     </task>
     <servers />
   </component>

@@ -30,7 +30,7 @@ public class PlayerControl : MonoBehaviour
         if (other.gameObject.CompareTag("NPC"))
         {
             Debug.Log("collision");
-            transform.position = new Vector3(-15, 1.1f, -12.4f);
+            transform.position = new Vector3(-15, 1.1f, -72f);
         }
     }
 }
