@@ -13,12 +13,12 @@ public class PlayerControl : MonoBehaviour
     public void Update()
     {
         transform.position += Vector3.forward * Time.deltaTime * speed;
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && !transform.position.x.Equals(-20))
         {
             transform.position = new Vector3(transform.position.x - 5f, transform.position.y, transform.position.z);
         }
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow) && !transform.position.x.Equals(-5))
         {
             transform.position = new Vector3(transform.position.x + 5f, transform.position.y, transform.position.z);
         }
