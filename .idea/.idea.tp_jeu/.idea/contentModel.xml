@@ -14,6 +14,11 @@
             </e>
           </e>
         </e>
+        <e p="Car Engine Sounds - i6 German Free" t="Include">
+          <e p="Assets for Realistic Engine Sounds" t="Include">
+            <e p="ReadMe.txt" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="CameraScript.cs" t="Include" />
           <e p="NPC.cs" t="Include" />

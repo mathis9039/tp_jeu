@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour
 {
     public static int speed = 10;
+    private AudioSource _audio;
+    [SerializeField] private AudioClip engineSound;
     private float initialX;
     private float initialY;
     private float initialZ;
@@ -18,6 +20,7 @@ public class PlayerControl : MonoBehaviour
 
     public void Update()
     {
+        _audio.PlayOneShot(engineSound);
         transform.position += Vector3.forward * Time.deltaTime * speed;
         if (Input.GetKeyDown(KeyCode.LeftArrow) && !transform.position.x.Equals(-20))
         {
