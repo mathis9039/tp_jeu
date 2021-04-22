@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\mathi\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\mathi\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_tp_jeu.694233703.00" t="ExcludeRecursive" />
-    <e p="D:\cegep\session 4\prog jeux video\tp final\tp_jeu" t="IncludeRecursive">
+    <e p="C:\Users\Jaymu\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Jaymu\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_tp_jeu.-218872730.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Jaymu\Documents\GitHub\tp_jeu" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="BrokenVector" t="Include">
-          <e p="LowPolyShaders" t="Include">
-            <e p="Shaders" t="Include">
-              <e p="LowPolyPBRShader.shader" t="Include" />
-              <e p="LowPolyUnlitShader.shader" t="Include" />
+        <e p="Models" t="Include">
+          <e p="BrokenVector" t="Include">
+            <e p="LowPolyShaders" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="LowPolyPBRShader.shader" t="Include" />
+                <e p="LowPolyUnlitShader.shader" t="Include" />
+              </e>
             </e>
-          </e>
-        </e>
-        <e p="Car Engine Sounds - i6 German Free" t="Include">
-          <e p="Assets for Realistic Engine Sounds" t="Include">
-            <e p="ReadMe.txt" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
@@ -25,6 +22,13 @@
           <e p="PlayerControl.cs" t="Include" />
           <e p="Roadblock.cs" t="Include" />
           <e p="UiManager.cs" t="Include" />
+        </e>
+        <e p="Sounds" t="Include">
+          <e p="Car Engine Sounds - i6 German Free" t="Include">
+            <e p="Assets for Realistic Engine Sounds" t="Include">
+              <e p="ReadMe.txt" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="UnityHDRI" t="Include">
           <e p="Seaside" t="Include">
