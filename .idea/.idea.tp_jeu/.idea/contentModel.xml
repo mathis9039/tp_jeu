@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Jaymu\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Jaymu\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_tp_jeu.-218872730.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Jaymu\Documents\GitHub\tp_jeu" t="IncludeRecursive">
+    <e p="C:\Users\mathi\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mathi\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_tp_jeu.694233703.00" t="ExcludeRecursive" />
+    <e p="D:\cegep\session 4\prog jeux video\tp final\tp_jeu" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="BrokenVector" t="Include">
@@ -24,6 +24,7 @@
           <e p="NPC.cs" t="Include" />
           <e p="PlayerControl.cs" t="Include" />
           <e p="Roadblock.cs" t="Include" />
+          <e p="UiManager.cs" t="Include" />
         </e>
         <e p="UnityHDRI" t="Include">
           <e p="Seaside" t="Include">
