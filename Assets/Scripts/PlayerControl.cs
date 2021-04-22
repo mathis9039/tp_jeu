@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -39,7 +40,8 @@ public class PlayerControl : MonoBehaviour
         if (other.gameObject.CompareTag("NPC"))
         {
             Debug.Log("collision");
-            transform.position = new Vector3(initialX, initialY, initialZ);
+           // transform.position = new Vector3(initialX, initialY, initialZ);
+           SceneManager.LoadSceneAsync("Menu");
         }
     }
 }
