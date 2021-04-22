@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
     public static int speed = 10;
-    //private AudioSource _audio;
-    //[SerializeField] private AudioClip engineSound;
+    public AudioSource _audio;
+    public AudioClip carCrash;
+    
     private float initialX;
     private float initialY;
     private float initialZ;
@@ -17,6 +19,7 @@ public class PlayerControl : MonoBehaviour
         initialX = transform.position.x;
         initialY = transform.position.y;
         initialZ = transform.position.z;
+        //carCrash = Resources.Load<AudioClip>("Car Crash Sound Effect");
     }
 
     public void Update()
@@ -40,6 +43,7 @@ public class PlayerControl : MonoBehaviour
         if (other.gameObject.CompareTag("NPC"))
         {
             Debug.Log("collision");
+            _audio.PlayOneShot(carCrash, 1f);
            // transform.position = new Vector3(initialX, initialY, initialZ);
            SceneManager.LoadSceneAsync("Menu");
         }

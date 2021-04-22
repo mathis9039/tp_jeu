@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb4263f-cd47-47bb-96d7-a1ddaf738198" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.tp_jeu/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tp_jeu/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.tp_jeu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tp_jeu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Car Engine Sounds - i6 German Free/Assets for Realistic Engine Sounds/RealisticEngineSounds_assets.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerControl.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +78,7 @@
       <workItem from="1619121443888" duration="1282000" />
       <workItem from="1619122958669" duration="359000" />
       <workItem from="1619124598281" duration="63000" />
+      <workItem from="1619125146641" duration="704000" />
     </task>
     <servers />
   </component>
