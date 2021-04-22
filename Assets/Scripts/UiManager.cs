@@ -14,6 +14,10 @@ public class UiManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SceneManager.LoadScene("SampleScene");
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            print("Space");
+            SceneManager.LoadSceneAsync("MainGame");
+        }
     }
 }
