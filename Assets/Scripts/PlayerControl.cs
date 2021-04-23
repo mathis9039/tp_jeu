@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
-    public static int speed = 10;
+    public static int speed = 20;
     private AudioSource _audio;
     [SerializeField] private AudioClip carCrash;
     private bool isCrashed;
