@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NPC
   - END
+  - FINISH
   layers:
   - Default
   - TransparentFX

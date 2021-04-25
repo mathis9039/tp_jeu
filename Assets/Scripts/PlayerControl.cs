@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
-    public static int speed = 15;
+    public static int speed = 40;
     private AudioSource _audio;
     [SerializeField] private AudioClip carCrash;
     private bool isCrashed;
@@ -50,6 +50,11 @@ public class PlayerControl : MonoBehaviour
             Debug.Log("END LEVEL");
             StartCoroutine(EndLevel());
         }
+        if (other.gameObject.CompareTag("FINISH"))
+        {
+            Debug.Log("END GAME");
+            StartCoroutine(EndGame());
+        }
     }
 
     IEnumerator Abc()
@@ -62,5 +67,11 @@ public class PlayerControl : MonoBehaviour
     {
         yield return new WaitForSeconds(0.15f);
         SceneManager.LoadSceneAsync("SecondGame");
+    }
+
+        IEnumerator EndGame()
+    {
+        yield return new WaitForSeconds(0.15f);
+        SceneManager.LoadSceneAsync("Menu");
     }
 }
