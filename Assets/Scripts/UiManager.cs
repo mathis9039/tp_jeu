@@ -17,7 +17,7 @@ public class UiManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             print("Space");
-            SceneManager.LoadSceneAsync("MainGame");
+            SceneManager.LoadSceneAsync("Level1");
         }
     }
 }

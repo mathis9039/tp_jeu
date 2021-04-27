@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class score : MonoBehaviour
+public class Score : MonoBehaviour
 {
     private Text _scoreText;
     private float _timer;
