@@ -51,7 +51,7 @@ public class PlayerControl : MonoBehaviour
             Debug.Log("collision");
             _audio.PlayOneShot(carCrash, 100);
             isCrashed = true;
-            StartCoroutine(Abc());
+            StartCoroutine(EndGame());
         }
 
         if (other.gameObject.CompareTag("END"))
@@ -65,12 +65,6 @@ public class PlayerControl : MonoBehaviour
             Debug.Log("END GAME");
             StartCoroutine(EndGame());
         }
-    }
-
-    IEnumerator Abc()
-    {
-        yield return new WaitForSeconds(0.15f);
-        SceneManager.LoadSceneAsync("Menu");
     }
 
     IEnumerator EndLevel()
