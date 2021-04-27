@@ -51,6 +51,7 @@ public class PlayerControl : MonoBehaviour
             Debug.Log("collision");
             _audio.PlayOneShot(carCrash, 100);
             isCrashed = true;
+            
             StartCoroutine(EndGame());
         }
 
