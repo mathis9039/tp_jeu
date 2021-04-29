@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.9840011, g: 0.9840409, b: 1.0004804, a: 1}
+  m_IndirectSpecularColor: {r: 0.9839938, g: 0.9840613, b: 1.000475, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1625,6 +1625,7 @@ GameObject:
   - component: {fileID: 458012553}
   - component: {fileID: 458012552}
   - component: {fileID: 458012551}
+  - component: {fileID: 458012555}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1712,6 +1713,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &458012555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458012550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1949fd6f20c4e9548929818265d6262b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carCrash: {fileID: 0}
+  isCrashed: 0
+  Canvas: {fileID: 458012550}
 --- !u!4 &471126183 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 434314, guid: d982fd29ce6fdc74b99c0e3d69cbde8b,
@@ -3479,7 +3495,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808275035}
-  m_CullTransparentMesh: 0
+  m_CullTransparentMesh: 1
 --- !u!4 &808552957 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: c242e8f877bfdcd41baf7688f8257e61,
@@ -10080,6 +10096,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carCrash: {fileID: 8300000, guid: 14f57be835634d946b59ce956b3f007f, type: 3}
+  isCrashed: 0
+  Canvas: {fileID: 0}
 --- !u!82 &2097095491
 AudioSource:
   m_ObjectHideFlags: 0

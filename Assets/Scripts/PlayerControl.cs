@@ -3,16 +3,17 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
-
 public class PlayerControl : MonoBehaviour
 {
     public static int speed;
     private AudioSource _audio;
     [SerializeField] private AudioClip carCrash;
-    private bool isCrashed;
+    public bool isCrashed;
     private VideoPlayer videoPlayer;
     private string path;
     private AudioSource myAudioSource;
+
+    public GameObject Canvas;
 
     public void Start()
     {
@@ -61,7 +62,6 @@ public class PlayerControl : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // print(other.gameObject);
         if (other.gameObject.CompareTag("NPC"))
         {
             myAudioSource.Stop();
@@ -69,6 +69,7 @@ public class PlayerControl : MonoBehaviour
             Debug.Log("collision");
             _audio.PlayOneShot(carCrash, 100);
             isCrashed = true;
+            Destroy(Canvas);
             StartCoroutine(Crash());
         }
 
