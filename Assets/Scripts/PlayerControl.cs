@@ -12,11 +12,12 @@ public class PlayerControl : MonoBehaviour
     private bool isCrashed;
     private VideoPlayer videoPlayer;
     private string path;
+    private AudioSource myAudioSource;
 
     public void Start()
     {
         SetUpVideo();
-
+        myAudioSource = GetComponent<AudioSource>();
         isCrashed = false;
         _audio = GetComponent<AudioSource>();
         if (SceneManager.GetActiveScene().name.Equals("Level1"))
@@ -63,6 +64,7 @@ public class PlayerControl : MonoBehaviour
         // print(other.gameObject);
         if (other.gameObject.CompareTag("NPC"))
         {
+            myAudioSource.Stop();
             videoPlayer.Play();
             Debug.Log("collision");
             _audio.PlayOneShot(carCrash, 100);
