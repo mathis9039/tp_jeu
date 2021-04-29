@@ -51,8 +51,8 @@ public class PlayerControl : MonoBehaviour
             Debug.Log("collision");
             _audio.PlayOneShot(carCrash, 100);
             isCrashed = true;
-            
-            StartCoroutine(EndGame());
+
+            StartCoroutine(Crash());
         }
 
         if (other.gameObject.CompareTag("END"))
@@ -65,6 +65,19 @@ public class PlayerControl : MonoBehaviour
         {
             Debug.Log("END GAME");
             StartCoroutine(EndGame());
+        }
+    }
+
+    IEnumerator Crash()
+    {
+        yield return new WaitForSeconds(0.15f);
+        if (SceneManager.GetActiveScene().name.Equals("Level1"))
+        {
+            SceneManager.LoadSceneAsync("Level1");
+        }
+        else
+        {
+            SceneManager.LoadSceneAsync("Level2");
         }
     }
 
