@@ -13,11 +13,8 @@ public class PlayerControl : MonoBehaviour
     private string path;
     private AudioSource myAudioSource;
     private string activeScene;
-
     public GameObject Canvas;
-
     public float timer = 5;
-
     public void Start()
     {
         activeScene = SceneManager.GetActiveScene().name;

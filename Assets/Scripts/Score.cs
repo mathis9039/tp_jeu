@@ -7,11 +7,8 @@ public class Score : MonoBehaviour
     private float _timer;
     private int _score;
     private GameObject Player;
-    //private bool isCrashed;
-
     void Start()
     {
-        
         _scoreText = gameObject.GetComponent<Text>();
         print(_scoreText);
     }
@@ -19,20 +16,10 @@ public class Score : MonoBehaviour
     void Update()
     {
         _timer += Time.deltaTime;
-        
         if (_timer > 1f) {
             _score += 5;
             _scoreText.text = "Score : " + _score;
             _timer = 0;
         }
     }
-
-    /*private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("NPC")){
-            _scoreText.text = "";
-        }
-    }*/
 }
-
-    
