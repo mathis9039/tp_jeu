@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
+
 public class PlayerControl : MonoBehaviour
 {
     public static int speed;
@@ -12,16 +12,23 @@ public class PlayerControl : MonoBehaviour
     private VideoPlayer videoPlayer;
     private string path;
     private AudioSource myAudioSource;
+    private string activeScene;
 
     public GameObject Canvas;
 
     public void Start()
     {
+        activeScene = SceneManager.GetActiveScene().name;
         SetUpVideo();
         myAudioSource = GetComponent<AudioSource>();
         isCrashed = false;
         _audio = GetComponent<AudioSource>();
-        if (SceneManager.GetActiveScene().name.Equals("Level1"))
+        setUpSpeed();
+    }
+
+    private void setUpSpeed()
+    {
+        if (activeScene.Equals("Level1"))
         {
             speed = 15;
         }
@@ -89,7 +96,7 @@ public class PlayerControl : MonoBehaviour
     IEnumerator Crash()
     {
         yield return new WaitForSeconds(6);
-        if (SceneManager.GetActiveScene().name.Equals("Level1"))
+        if (activeScene.Equals("Level1"))
         {
             SceneManager.LoadSceneAsync("Level1");
         }
