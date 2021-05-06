@@ -438,6 +438,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114013052423564172, guid: fc8a99475b2a8f5488fb0f1e6d3442c2,
+        type: 3}
+      propertyPath: m_Text
+      value: Appuyez sur 'espace' pour commencer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370150509564158, guid: fc8a99475b2a8f5488fb0f1e6d3442c2,
+        type: 3}
+      propertyPath: m_Text
+      value: "SPEED CHASE\nContr\xF4ler avec \u2190 et \u2192 et maintener E\n pour
+        un slow motion de 5 seconde"
+      objectReference: {fileID: 0}
     - target: {fileID: 224412317095143888, guid: fc8a99475b2a8f5488fb0f1e6d3442c2,
         type: 3}
       propertyPath: m_Pivot.x
@@ -542,6 +553,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224470344487047026, guid: fc8a99475b2a8f5488fb0f1e6d3442c2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -39.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc8a99475b2a8f5488fb0f1e6d3442c2, type: 3}

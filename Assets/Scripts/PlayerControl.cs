@@ -16,6 +16,8 @@ public class PlayerControl : MonoBehaviour
 
     public GameObject Canvas;
 
+    public float timer = 5;
+
     public void Start()
     {
         activeScene = SceneManager.GetActiveScene().name;
@@ -50,6 +52,14 @@ public class PlayerControl : MonoBehaviour
         videoPlayer.Prepare();
     }
 
+    void Slowmo(){
+        Time.timeScale = Mathf.Lerp(1, 0.6f, 5);
+    }
+
+    void Normal(){
+        Time.timeScale = Mathf.Lerp(0.1f, 1, 5);
+    }
+
     public void Update()
     {
         if (!isCrashed)
@@ -64,6 +74,15 @@ public class PlayerControl : MonoBehaviour
             {
                 transform.position = new Vector3(transform.position.x + 5f, transform.position.y, transform.position.z);
             }
+
+            if(Input.GetKey(KeyCode.E) && timer > 0){
+                timer -= Time.deltaTime;
+                Slowmo();
+            }
+                else{
+                Normal();
+            }
+            
         }
     }
 
