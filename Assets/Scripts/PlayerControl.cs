@@ -34,7 +34,7 @@ public class PlayerControl : MonoBehaviour
         }
         else
         {
-            speed = 25;
+            speed = 20;
         }
     }
 
