@@ -5,63 +5,71 @@ using UnityEngine.Video;
 
 public class PlayerControl : MonoBehaviour
 {
-    public static int speed;
+    private static int _speed;
     private AudioSource _audio;
     [SerializeField] private AudioClip carCrash;
-    public bool isCrashed;
-    private VideoPlayer videoPlayer;
-    private string path;
-    private AudioSource myAudioSource;
-    private string activeScene;
-    public GameObject Canvas;
-    public float timer = 5;
+    private bool _isCrashed;
+    private VideoPlayer _videoPlayer;
+    private string _path;
+    private AudioSource _myAudioSource;
+    private string _activeScene;
+    public GameObject canvas;
+    private float _timer = 5;
+
     public void Start()
     {
-        activeScene = SceneManager.GetActiveScene().name;
+        _activeScene = SceneManager.GetActiveScene().name;
         SetUpVideo();
-        myAudioSource = GetComponent<AudioSource>();
-        isCrashed = false;
+        _myAudioSource = GetComponent<AudioSource>();
+        _isCrashed = false;
         _audio = GetComponent<AudioSource>();
-        setUpSpeed();
+        SetUpSpeed();
     }
 
-    private void setUpSpeed()
+    private void SetUpSpeed()
     {
-        if (activeScene.Equals("Level1"))
+        if (_activeScene.Equals("Level1"))
         {
-            speed = 15;
+            _speed = 15;
         }
         else
         {
-            speed = 20;
+            _speed = 20;
         }
     }
 
     private void SetUpVideo()
     {
-        path = Application.dataPath;
+        _path = Application.dataPath;
 
         GameObject camera = GameObject.Find("Main Camera");
-        videoPlayer = camera.AddComponent<UnityEngine.Video.VideoPlayer>();
-        videoPlayer.playOnAwake = false;
-        videoPlayer.renderMode = UnityEngine.Video.VideoRenderMode.CameraNearPlane;
-        videoPlayer.url = path + "/Video/crash.mp4";
-        videoPlayer.Prepare();
+        _videoPlayer = camera.AddComponent<VideoPlayer>();
+        _videoPlayer.playOnAwake = false;
+        _videoPlayer.renderMode = VideoRenderMode.CameraNearPlane;
+        _videoPlayer.url = _path + "/Video/crash.mp4";
+        _videoPlayer.Prepare();
     }
 
-    void Slowmo(){
+    void Slowmo()
+    {
         Time.timeScale = Mathf.Lerp(1, 0.6f, 5);
     }
 
-    void Normal(){
+    void Normal()
+    {
         Time.timeScale = Mathf.Lerp(0.1f, 1, 5);
     }
 
     public void Update()
     {
-        if (!isCrashed)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            transform.position += Vector3.forward * Time.deltaTime * speed;
+            SceneManager.LoadSceneAsync("Menu");
+        }
+
+        if (!_isCrashed)
+        {
+            transform.position += Vector3.forward * Time.deltaTime * _speed;
             if (Input.GetKeyDown(KeyCode.LeftArrow) && !transform.position.x.Equals(-20))
             {
                 transform.position = new Vector3(transform.position.x - 5f, transform.position.y, transform.position.z);
@@ -72,14 +80,15 @@ public class PlayerControl : MonoBehaviour
                 transform.position = new Vector3(transform.position.x + 5f, transform.position.y, transform.position.z);
             }
 
-            if(Input.GetKey(KeyCode.E) && timer > 0){
-                timer -= Time.deltaTime;
+            if (Input.GetKey(KeyCode.E) && _timer > 0)
+            {
+                _timer -= Time.deltaTime;
                 Slowmo();
             }
-                else{
+            else
+            {
                 Normal();
             }
-            
         }
     }
 
@@ -87,24 +96,21 @@ public class PlayerControl : MonoBehaviour
     {
         if (other.gameObject.CompareTag("NPC"))
         {
-            myAudioSource.Stop();
-            videoPlayer.Play();
-            Debug.Log("collision");
+            _myAudioSource.Stop();
+            _videoPlayer.Play();
             _audio.PlayOneShot(carCrash, 100);
-            isCrashed = true;
-            Destroy(Canvas);
+            _isCrashed = true;
+            Destroy(canvas);
             StartCoroutine(Crash());
         }
 
         if (other.gameObject.CompareTag("END"))
         {
-            Debug.Log("END LEVEL");
             StartCoroutine(EndLevel());
         }
 
         if (other.gameObject.CompareTag("FINISH"))
         {
-            Debug.Log("END GAME");
             StartCoroutine(EndGame());
         }
     }
@@ -112,7 +118,7 @@ public class PlayerControl : MonoBehaviour
     IEnumerator Crash()
     {
         yield return new WaitForSeconds(6);
-        if (activeScene.Equals("Level1"))
+        if (_activeScene.Equals("Level1"))
         {
             SceneManager.LoadSceneAsync("Level1");
         }
