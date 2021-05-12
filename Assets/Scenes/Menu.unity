@@ -223,6 +223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 822926233}
   - component: {fileID: 822926232}
+  - component: {fileID: 822926234}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -241,7 +242,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1b9ba80b914b540f7b967496a060e838, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -340,6 +341,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &822926234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822926231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d37d6c1ea729b448e43a956038da31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1628787225
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +461,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: "SPEED CHASE\nContr\xF4ler avec \u2190 et \u2192 et maintener E\n pour
         un slow motion de 5 seconde"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114818474854124926, guid: fc8a99475b2a8f5488fb0f1e6d3442c2,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224412317095143888, guid: fc8a99475b2a8f5488fb0f1e6d3442c2,
         type: 3}
