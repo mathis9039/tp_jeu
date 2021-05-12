@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.9839938, g: 0.9840613, b: 1.000475, a: 1}
+  m_IndirectSpecularColor: {r: 0.9840011, g: 0.9840409, b: 1.0004804, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1728,6 +1728,7 @@ MonoBehaviour:
   carCrash: {fileID: 0}
   isCrashed: 0
   Canvas: {fileID: 458012550}
+  timer: 5
 --- !u!4 &471126183 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 434314, guid: d982fd29ce6fdc74b99c0e3d69cbde8b,
@@ -4534,7 +4535,7 @@ GameObject:
   - component: {fileID: 983754356}
   - component: {fileID: 983754355}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: AudioManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10098,6 +10099,7 @@ MonoBehaviour:
   carCrash: {fileID: 8300000, guid: 14f57be835634d946b59ce956b3f007f, type: 3}
   isCrashed: 0
   Canvas: {fileID: 0}
+  timer: 5
 --- !u!82 &2097095491
 AudioSource:
   m_ObjectHideFlags: 0
